@@ -1,0 +1,110 @@
+  <!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/normalize.css">
+         <link rel="stylesheet" type="text/css" href="css/grid.css">
+        <link rel="stylesheet" type="text/css" href="css/queries.css">
+        <link rel="stylesheet" type="text/css" href="css/style2.css">
+         <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet" async>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+        <title>Lakshmi Palaparthi</title>
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="row">
+                <ul class="main-nav">
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/portfolio.html">Portfolio</a></li>
+                    <li><a href="/dance.html">Dance</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+              </ul>
+            </div>
+            </nav>
+        </header>
+        <section class="section-form">
+            <div class="row">
+                <h2>Contact Me</h2>
+                <h4>For questions, concerns, and suggestions please fill out the form below.</h4>
+            </div>
+            <div class="row">
+                <form method="POST" action="https://formspree.io/xzbkbdrw" id = "my-form" class="contact-form">
+                    <div class= "row">
+                        <div class = "col span-1-of-3">
+                            <label for="name">Name:</label>
+                        
+                        </div>
+                        <div class="col span-1-of-3">
+                            <input type="text" name="name" id="name" placeholder="Your name" required>
+                        
+                        </div>
+                        
+                    </div>
+                    <div class= "row">
+                        <div class = "col span-1-of-3">
+                            <label for="email">Email:</label>
+                        
+                        </div>
+                        <div class="col span-1-of-3">
+                            <input type="email" name="email" id="email" placeholder="Your email" required>
+                        
+                        </div>
+                    </div>
+                    <div class= "row">
+                        <div class = "col span-1-of-3">
+                            <label>Subject:</label>
+                        
+                        </div>
+                        <div class="col span-1-of-3">
+                            <input type="text" name="subject" id="subject" placeholder="Subject" required>
+                        
+                        </div>
+                    </div>
+                    <div class= "row">
+                        <div class = "col span-1-of-3">
+                            <label>Message:</label>
+                        
+                        </div>
+                        <div class="col span-1-of-3">
+                            <textarea name="message" id = "message" placeholder="Your message"></textarea>
+                        
+                        </div>
+                    </div>
+                    <div class= "row">
+                        <div class = "col span-1-of-3">
+                            <label>&nbsp;</label>
+                        
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="submit" name="submit" value="Send it!">
+                            <input type="reset" name="reset_button" value="Reset it!">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div id="status"></div>
+        </section>
+
+ <footer>
+            <div class="row">
+                    <ul class="social-links">
+                        <li><a href="https://www.facebook.com/lakshmi.palaparthi.7/" target="_blank"><ion-icon class = "ion-facebook" name="logo-facebook"></ion-icon></a></li>
+                        <li><a href="https://twitter.com/laksh_mi21" target="_blank"><ion-icon class="ion-twitter" name="logo-twitter"></ion-icon></a></li>
+                        <li><a href="https://www.linkedin.com/in/lakshmipalaparthi/" target="_blank"><ion-icon class = "ion-linkedin" name="logo-linkedin"></ion-icon></a></li>
+                        <li><a href="https://www.instagram.com/palaparthi_lakshmi/" target="_blank"><ion-icon class = "ion-instagram" name="logo-instagram"></ion-icon></a></li> 
+                        <li><a href="https://github.com/lvpalaparthi" target="_blank"><ion-icon class = "ion-github" name="logo-github"></ion-icon></a></li> 
+                        <li><a href="https://www.youtube.com/channel/UCowgcxgT0Q3YeOOijXWj4qA?view_as=subscriber" target="_blank">  <ion-icon class="ion-youtube" name="logo-youtube"></ion-icon></a></li>
+                    </ul>
+            </div>
+                <div class="row">
+                    <p>
+                        Copyright &copy; 2020 by Lakshmi Palaparthi. All rights reserved.
+                    </p>
+                
+                </div>
+        </footer>
+        <script src="./main.js"></script>
+        <script type="module" src="https://unpkg.com/ionicons@5.1.2/dist/ionicons/ionicons.esm.js"></script>  
+    </body>

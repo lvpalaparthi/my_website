@@ -1,0 +1,131 @@
+
+/*Big tablet to 1200px (widths smaller than 1140px row)*/
+@media only screen and (max-width: 1200px){
+/*
+    .background-cover-box{
+        width:100%;
+        padding: 0 2%;
+        margin-right: 100%;
+        
+    }
+    .row{padding: 0 2%;}
+*/
+        .background-cover-box {
+        width: 100%;
+        padding: 0 30%;
+    }
+    
+    .row { padding: 0 2%; }
+    
+
+}
+
+/*Small tablet to big tablet: from 768pb to 1023px*/
+/*
+@media only screen and (max-width: 1023px){
+    
+    body{font-size: 16px;}
+
+    footer{
+        font-size:100%;
+    }
+}
+*/
+
+/*Small phones to small tablets: from 481px to 767pxpx*/
+/*
+
+@media only screen and (max-width: 767px){
+    body{font-size: 14px;}
+    
+    .background-cover-box{
+        margin-top: 4%;
+        margin-left:90%;
+        font-size:10px;
+        
+    }
+
+    .main-nav{
+        font-size:70%;
+        padding-right: 10%;
+    }
+    
+    header{
+    height: 110vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: 180% 100%;
+    }
+    
+    
+
+    footer{
+        font-size:100%;
+    }
+    
+    .me-post img{
+       display:block;
+        margin: 0 38%;
+    }
+    .section-about-me{
+        padding-bottom: 50%;
+    }
+    .section-about-me p{
+        display:block;
+        float:left;
+        overflow:hidden;
+        line-height:20px;
+        padding: 10px 10px;
+    }
+    
+    
+}
+*/
+
+
+/*Small phones: from 0 to 480px*/
+/*
+@media only screen and (max-width: 480px){
+    .background-cover-box{
+        width:100%;
+        padding: 0 2%;
+        margin-top: 4%;
+        margin-left:50%;
+        font-size:10px;
+        
+        
+    }
+    .main-nav{
+        font-size:37%;
+        padding-right: 10%;
+    }
+    .row{padding: 0 2%;}
+    
+    h1,
+    h3{
+        text-align: left;
+        margin-bottom:15%;
+        margin-left:80%;
+        padding:0 32%;
+    }
+    h3{
+        margin-right:20%;
+        padding-left: 29%;
+    }
+     body{font-size: 10px;}
+    
+    .me-post img{
+       display:block;
+        margin: 0 100px;
+    }
+    .section-about-me{
+        padding-bottom: 100%;
+    }
+    .section-about-me p{
+        display:block;
+        float:left;
+        overflow:hidden;
+        line-height:20px;
+        padding: 30px 10px;
+    }
+}*/
